@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+    height : auto;
+    
+}
+h4
+{
+    color:rgb(171, 73, 92);
+    padding:20px;
+}
+h1{
+    text-align: center;
+    color:rgb(171, 73, 92);
+    padding:20px;
+}
+nav{
+    background-color:rgb(241, 199, 221);
+    display:grid;
+    place-items: center;
+
+}nav ul {
+    list-style-type: none;
+}
+nav ul a 
+{
+    display: inline-block;
+    padding:20px;
+    text-decoration: none;
+    color:black;
+    transition: 0.2s ease-in;
+    font-size:18px;
+}
+nav ul a:hover{
+    background-color: rgb(239, 10, 124);
+    color:white;
+}
+.items
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:30px 20px;
+    grid-column-gap: 30px;
+    grid-column-gap: 30px;
+}
+.item img
+{
+    padding:5px;
+    height:300px;
+    width:100%;
+    object-fit: cover;
+    cursor:pointer;
+    transition:0.2s ease;
+
+}
+.item img:hover{
+    transform:scale(1.04);
+}
+.item h4{
+    padding:5px;
+    text-align:center;
+}
+.item button{
+    padding : 5px 30px ;
+    border:none;
+    outline:none;
+    background-color: rgb(241, 199, 221);
+    color:black;
+    cursor:pointer;
+    border-radius: 5px;
+    font-size:20px;
+    display:block;
+    margin: 0 auto;
+    transition:0.2s all;
+    
+}
+.item button:hover
+{
+    transform:scale(1.08);
+}
+.point
+{
+    padding:25px;
+    font-size: 18px;
+   
+    font-family: sans-serif;
+   
+    color:black;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    
+}
+.container
+{
+    
+    background-size: cover;
+    text-align: center;
+    max-width: 500px;
+    margin-top: 10px;
+    height:550px;
+}
+
+a{
+    color : rgb(156, 156, 215);
+}
+label
+{
+    color: rgb(224, 209, 217);
+    font-size: 18px;
+    background-color:rgb(23, 19, 19);
+    float : left;
+    margin-top: auto;
+    margin-right: auto;
+    align-self: flex-start;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.form{
+    margin:10px;
+}
+.form-control
+{
+    text-align: center;
+}
+
